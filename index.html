@@ -1,122 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rubén Balaguer | Desarrollador Web</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rubén Balaguer Picó | Estudiante de DAW</title>
+<meta name="description" content="Rubén Balaguer Picó, estudiante de 2.º de DAW en Alcoy. Desarrollo web, automatización e IA. Experiencia, formación y currículum para prácticas.">
+<meta name="theme-color" content="#142d46"><link rel="canonical" href="https://rubenbalag.github.io/gorrion09.github.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><script src="main.js" defer></script>
 </head>
 <body>
-
-    <div class="background-glow"></div>
-
-    <header>
-        <nav class="glass-nav">
-            <div class="logo">RB.</div>
-            <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#habilidades">Skills</a></li>
-                <li><a href="#experiencia">Trayectoria</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-            </ul>
-            <a href="https://www.linkedin.com/in/ruben-balaguer-pico" target="_blank" class="btn-contact">Contactar</a>
-        </nav>
-    </header>
-
-    <main>
-        <section id="inicio" class="hero-section">
-            <div class="hero-content fade-in">
-                <span class="badge">Desarrollador Junior</span>
-                <h1>Rubén Balaguer Picó</h1>
-                <p class="hero-text">
-                   Estudiante de desarrollo web, con ganas de crear soluciones digitales modernas
-                   y funcionales.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#proyectos" class="btn primary">Ver Proyectos</a>
-                    <a href="https://github.com/gorrion09" target="_blank" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
-                </div>
-            </div>
-            <div class="hero-image fade-in-delay">
-                <div class="img-wrapper">
-                    <img src="public/img/106767558.png" alt="Rubén Balaguer">
-                </div>
-            </div>
-        </section>
-
-        <section id="habilidades" class="container">
-            <h2 class="section-title">Arsenal Tecnológico</h2>
-            <div class="grid-2">
-                <div class="glass-card">
-                    <h3><i class="fas fa-code"></i> Lenguajes</h3>
-                    <div class="chart-container">
-                        <canvas id="lenguajesChart"></canvas>
-                    </div>
-                </div>
-                <div class="glass-card">
-                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
-                    <div class="chart-container">
-                        <canvas id="frameworkChart"></canvas>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="experiencia" class="container">
-            <h2 class="section-title">Trayectoria</h2>
-            <div class="grid-2">
-                <div class="glass-card">
-                    <h3>Experiencia Laboral</h3>
-                    <div class="timeline-item">
-                        <span class="date">Mar 2024 - Jun 2024</span>
-                        <h4>Técnico de Sistemas</h4>
-                        <p class="place">Colegio José Arnauda</p>
-                        <p class="desc">Mantenimiento de equipos, redes y soporte técnico a usuarios.</p>
-                    </div>
-                </div>
-
-                <div class="glass-card">
-                    <h3>Formación</h3>
-                    <div class="timeline-item">
-                        <span class="date">2022 - 2024</span>
-                        <h4>Técnico Medio de Sistemas</h4>
-                        <p class="place">CIPFP BATOI</p>
-                    </div>
-                    <div class="timeline-item">
-                        <span class="date">Certificación</span>
-                        <h4>Introducción al Desarrollo Web</h4>
-                        <p class="place">Google Actívate</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="proyectos" class="container">
-            <h2 class="section-title">Proyectos Destacados</h2>
-            <div class="glass-card center-text">
-                <p>Constantemente construyendo cosas nuevas. Explora mi código fuente y contribuciones.</p>
-                <br>
-                <a href="https://github.com/gorrion09" target="_blank" class="btn primary large">
-                    <i class="fab fa-github"></i> Explorar GitHub de Rubén
-                </a>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2025 Rubén Balaguer. Creado con pasión y código.</p>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/ruben-balaguer-pico" target="_blank">LinkedIn</a>
-            <a href="https://github.com/gorrion09" target="_blank">GitHub</a>
-        </div>
-    </footer>
-
-    <script src="main.js"></script>
-</body>
-</html>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+<header><nav class="wrap nav" aria-label="Navegación principal"><a class="brand" href="#inicio" aria-label="Rubén Balaguer, inicio">RB<span>.</span></a><button class="menu" aria-expanded="false" aria-controls="nav-links" hidden>Menú ☰</button><div class="nav-links" id="nav-links"><a href="#sobre-mi">Sobre mí</a><a href="#experiencia">Experiencia</a><a href="#tecnologias">Tecnologías</a><a href="#formacion">Formación</a><a class="nav-contact" href="#contacto">Hablemos ↗</a></div></nav></header>
+<main id="contenido">
+<section class="hero wrap" id="inicio"><div><p class="eyebrow">● &nbsp; BUSCANDO OPORTUNIDADES DE PRÁCTICAS</p><h1>Rubén<br>Balaguer Picó<span>.</span></h1><p class="role">Estudiante de Desarrollo<br>de Aplicaciones Web</p><p class="intro">Del mundo de los sistemas al desarrollo web. Aprendiendo a crear soluciones con código, automatización e inteligencia artificial.</p><div class="actions"><a class="button" href="public/docs/CV_Ruben_Balaguer_Pico.pdf" download>Descargar mi CV ↓</a><a class="text-link" href="#contacto">Contactar conmigo ↗</a></div><p class="location">◎ &nbsp; Alcoy, Alicante · España</p></div><div class="visual"><div class="portrait"><span class="portrait-label">DESARROLLO WEB / DAW</span><img src="public/img/ruben-cv.png" width="600" height="600" alt="Retrato de Rubén Balaguer Picó" fetchpriority="high"><p>Curiosidad. Iniciativa. Aprendizaje.</p></div><div class="study"><span>↗</span><div><strong>2.º de DAW</strong><small>CIP FP Batoi</small></div></div></div></section>
+<div class="band"><div class="wrap"><span>Desarrollo web</span><i>/</i><span>Automatización e IA</span><i>/</i><span>Sistemas y cloud</span></div></div>
+<section class="section wrap split" id="sobre-mi"><div><p class="eyebrow">01 / SOBRE MÍ</p><h2>Una base en sistemas.<br>Un camino en la web.</h2></div><div class="copy"><p>Soy estudiante de segundo curso del Grado Superior en Desarrollo de Aplicaciones Web, con formación previa en Sistemas Microinformáticos y Redes.</p><p>Me considero una persona responsable, empática y trabajadora. Tengo iniciativa y ganas de seguir aprendiendo, especialmente en desarrollo web, automatización, inteligencia artificial y cloud computing.</p><p>Busco unas prácticas donde aportar compromiso, aplicar mis conocimientos y crecer junto a un equipo.</p><div class="traits"><span>+ Responsabilidad</span><span>+ Trabajo en equipo</span><span>+ Iniciativa</span></div></div></section>
+<section class="section tinted" id="experiencia"><div class="wrap"><div class="heading"><div><p class="eyebrow">02 / EXPERIENCIA</p><h2>Aprender en el entorno real.</h2></div><p>Mis primeras experiencias profesionales,<br>siempre con ganas de aprender.</p></div><div class="timeline"><article class="row"><div class="date">ENE — ABR 2026<small>Alcoy · Prácticas</small></div><div><h3>Desarrollador de aplicaciones web</h3><p class="company">Mabisy</p><p>Experiencia relacionada con comercio electrónico, uso de Odoo y herramientas de análisis web.</p><div class="tags"><span>Comercio electrónico</span><span>Odoo</span><span>Análisis web</span></div></div></article><article class="row"><div class="date">MAR — JUN 2024<small>Alcoy · Prácticas</small></div><div><h3>Auxiliar informático</h3><p class="company">Colegio José Arnauda</p><p>Prácticas de reparación de equipos informáticos.</p><div class="tags"><span>Equipos informáticos</span><span>Reparación</span></div></div></article></div></div></section>
+<section class="section wrap" id="tecnologias"><div class="heading"><div><p class="eyebrow">03 / TECNOLOGÍAS</p><h2>Mi caja de herramientas.</h2></div><p>Conocimientos en desarrollo,<br>a través de formación y práctica.</p></div><div class="tech-row"><div><h3>En aprendizaje</h3><p>Uso académico y exploración.</p></div><ul class="tech-list"><li>Python</li><li>JavaScript</li><li>PHP</li><li>Laravel</li><li>Docker</li><li>Linux</li><li>Git</li><li>n8n</li><li>AWS</li><li>IA y prompts</li></ul></div><div class="tech-row basics"><div><h3>Conocimientos básicos</h3><p>Una base que sigo consolidando.</p></div><ul class="tech-list"><li>Java</li><li>SQL</li><li>HTML5</li><li>CSS3</li></ul></div><div class="practice-heading"><h3>Conocimientos y prácticas técnicas</h3><p>Áreas que trabajo durante mi aprendizaje.</p></div><div class="practice-grid"><article><span aria-hidden="true">&lt;/&gt;</span><h4>Desarrollo web</h4><p>Prácticas con HTML, CSS, JavaScript, PHP, Laravel y bases de datos SQL.</p></article><article><span aria-hidden="true">↳</span><h4>Automatización e IA</h4><p>Flujos con n8n y experimentación con modelos de inteligencia artificial.</p></article><article><span aria-hidden="true">⌘</span><h4>Sistemas y cloud</h4><p>Administración básica de Linux, Docker y despliegues en AWS.</p></article></div><a class="text-link github" href="https://github.com/rubenbalag" target="_blank" rel="noopener noreferrer">Explorar mis repositorios en GitHub ↗</a></section>
+<section class="section tinted" id="formacion"><div class="wrap split"><div><p class="eyebrow">04 / FORMACIÓN</p><h2>Seguir construyendo<br>una buena base.</h2></div><div class="education"><article><span>EN CURSO · 2.º CURSO</span><h3>Desarrollo de Aplicaciones Web</h3><p>Grado Superior · CIP FP Batoi</p></article><article><span>FINALIZADO</span><h3>Sistemas Microinformáticos y Redes</h3><p>Grado Medio</p></article></div></div></section>
+<section class="section wrap" id="contacto"><div class="contact"><div><p class="eyebrow">05 / CONTACTO</p><h2>El siguiente paso<br>empieza hablando<span>.</span></h2><p>Busco oportunidades de prácticas en desarrollo web. Si crees que puedo encajar en tu equipo, hablemos.</p><a class="button light" href="mailto:rbalaguerpico@gmail.com">Escríbeme ↗</a></div><div class="details"><a href="mailto:rbalaguerpico@gmail.com"><small>EMAIL</small>rbalaguerpico@gmail.com</a><a href="tel:+34644209127"><small>TELÉFONO</small>644 209 127</a><div><small>ENCUÉNTRAME EN</small><div class="socials"><a href="https://www.linkedin.com/in/ruben-balaguer-pico/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/rubenbalag" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div><a class="cv-link" href="public/docs/CV_Ruben_Balaguer_Pico.pdf" download>Descargar mi CV ↓</a></div></div></section>
+</main><footer class="wrap"><p>© <span id="year">2026</span> Rubén Balaguer Picó</p><p>Alcoy, Alicante</p><a href="#inicio">Volver arriba ↑</a></footer>
+</body></html>
